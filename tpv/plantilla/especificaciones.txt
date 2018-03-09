@@ -1,0 +1,2 @@
+1- Los iconos del menú del Aside en el index se sacan del fichero "elegant-icons-style.css"
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+<body>
+  <!-- container section start -->
+  <section id="container" class="">
+    <!--header start-->
+ 
+
+
+    <!--main content start-->
+    <section id="main-content">  
+      <section id="pruebatabla" class="wrapper">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="page-header"><i class="fa fa-files-o"></i> Alta de productos</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <section class="panel">
+              <header class="panel-heading">
+                Datos:
+              </header>
+              <div class="panel-body">
+                <div class="form">
+                <!--  <form class="form-validate form-horizontal" id="feedback_form" method="post" action=""> -->
+                  <form id="formAddProduct" class="form-validate form-horizontal all">
+                    <div class="form-group ">
+                      <label for="product" class="control-label col-lg-2">Producto</label>
+                      <div class="col-lg-10"> 
+                        <input class="form-control1 col-lg-7 exigido" id="product" name="product" minlength="5" type="text" placeholder="Min. 5 max. 40 caracteres" required />
+                      </div>
+                      <label for="price" class="control-label col-lg-2">Precio</label>
+                      <div class="col-lg-10"> 
+                        <input class="form-control1 col-lg-7 exigido" id="price" name="price" type="text"/>
+                      </div>
+                    </div>  
+                      
+                    <div class="form-group ">  
+                      <label for="imagen" class="control-label col-lg-2">Imagen</label>
+                      <div class="col-lg-10"> 
+                        <input class="form-control1 col-lg-7" id="imagen" name="imagen" type="file"/>
+                      </div>                      
+                    </div>
+                                   
+                    <input type="hidden" name="ruta" value="oldproduct">  
+                    <input type="hidden" name="accion" value="subirFoto">      
+                    
+                    <div class="form-group">
+                      <div class="col-lg-offset-2 col-lg-10">
+                        <button class="btn btn-primary" type="submit">Guardar</button> 
+                      </div>
+                    </div>
+                 </form>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </section>
+  </section>
+  <!-- container section end -->
+
+</body>
+
+</html>
